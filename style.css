@@ -1,0 +1,57 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+::-webkit-scrollbar {
+  width: 18px;
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  width: 18px;
+  border-radius: 25px;
+  background: linear-gradient(transparent, green);
+}
+::-webkit-scrollbar-thumb:hover {
+  width: 18px;
+  border-radius: 25px;
+  background: linear-gradient(transparent, red);
+}
+.heading {
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  margin: 0px;
+  box-shadow: 5px 5px 5px grey;
+  font-size: 40px;
+}
+
+.heading_div {
+  background: white;
+  border-radius: 20px;
+  color: black;
+  box-shadow: 5px 5px 5px grey;
+  font-size: 30px;
+  width: 50%;
+}
+
+.heading_div2 {
+  font-size: 20px;
+}
+
+.result_para_tag {
+  box-shadow: 5px 5px 5px grey;
+  font-size: 20px;
+  bottom: 400px;
+}
+
+.copy_right_footer {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  line-height: 3;
+}
+canvas {
+  background-color: #fff;
+  margin-top: 250px;
+}
